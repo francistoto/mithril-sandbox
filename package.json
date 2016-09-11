@@ -1,0 +1,33 @@
+{
+  "name": "mithril-sandbox",
+  "version": "1.0.0",
+  "description": "A sandbox for working with Mithril",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francistoto/mithril-sandbox.git"
+  },
+  "author": "Francis Toto <fbt.github@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francistoto/mithril-sandbox/issues"
+  },
+  "homepage": "https://github.com/francistoto/mithril-sandbox#readme",
+  "dependencies": {
+    "browserify-middleware": "^7.0.0",
+    "express": "^4.14.0",
+    "mithril": "^0.2.5",
+    "nodemon": "^1.10.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.0.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^6.2.0"
+  }
+}
